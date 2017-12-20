@@ -1,0 +1,32 @@
+.canvas-container {
+	position: relative;
+
+	.overlap-container {
+		position: absolute;
+		z-index: 100;
+		text-align: center;
+		left: 0;
+		right: 0;
+		top: -15px;
+
+		#overlap {
+			display: inline-block;
+			margin-bottom: 0;
+		}
+	}
+
+	#zoom {
+		position: absolute;
+		top: 0;
+		right: 0;
+		z-index: 100;
+		width: 20px;
+		bottom: 0;
+	}
+}
+
+.canvas {
+	> div.konvajs-content {
+		margin: auto;
+	}
+}

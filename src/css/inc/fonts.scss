@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'iransans';
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/IRANSans-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/IRANSans-Regular.ttf") format("truetype");
+}
+
+$defaultFont: 'iransans', 'Source Sans Pro', sans-serif;
+
+.english {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.english-persian {
+    font-family: 'Source Sans Pro', $defaultFont;
+}
+.onesignal-bell-launcher-message-body {
+    font-family: $defaultFont;
+}
+body {
+    font-family: $defaultFont, 'Source Sans Pro';
+    font-size: 14px;
+}
